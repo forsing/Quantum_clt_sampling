@@ -14,9 +14,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -257,17 +257,17 @@ Metoda: Quantum Central Limit Theorem Sampling (1x5 qubita, 32 z-stanja)
 CSV: loto7_4718_k90.csv
 Validacija NLL (gamma=0.15): 28.3470
 Test NLL: 28.4262
-NEXT: [6, 10, 16, 24, 25, 31, 35]
+NEXT: [6, x, 16, y, 25, z, 35]
 
 CSV: loto7_4718_k90_loto_2981.csv
 Validacija NLL (gamma=0.15): 28.5603
 Test NLL: 28.4232
-NEXT: [2, 4, 10, 12, 27, 31, 32]
+NEXT: [2, x, 10, y, 27, z, 32]
 
 CSV: loto7_4718_k90_loto_plus_1737.csv
 Validacija NLL (gamma=0.15): 28.3909
 Test NLL: 28.9891
-NEXT: [5, 14, 20, 24, 30, 35, 39]
+NEXT: [5, x, 20, y, 30, z, 39]
 """
 
 
